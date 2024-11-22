@@ -19,8 +19,8 @@ The primary objective of this work was to:
 The methodology included the following key components:
 
 - **Sampling Techniques:** Methods for selecting representative data samples such as grid and random sampling.
-- **K-Fold Cross-Validation:** Used to assess model performance and avoid overfitting.
-- **Variable Selection:** Identification of relevant features for model training with Mean Decrease in Accuracy (MDA) and Mean Decrease in Impurity (MDI).
+- **K-Fold Cross-Validation and Feature Scaling:** Used to assess model performance and avoid overfitting.
+- **Feature Selection:** Identification of relevant features for model training with Mean Decrease in Accuracy (MDA) and Mean Decrease in Impurity (MDI).
 - **Hyperparameter Optimization:** Fine-tuning model parameters with Bayesian and Random Search for improved accuracy 
 - **Model Explanation with SHAP:** Interpreting model predictions to understand feature contributions.
 - **Validation with NFI Data:** Comparing model predictions with data from the National Forest Inventory (NFI).
