@@ -6,7 +6,7 @@ The prediction of aboveground biomass is essential for understanding ecosystems 
 
 The workflow on this project utilizes a combination of diverse datasets. First of all is MapBiomas (collection 7) to make a Land Use and Land Cover analysis on the area of interest. Then, the target variable is sampled using ESA CCI Global Forest Above Ground Biomass. The Harmonized Sentinel-2 MSI (Level-2A) and Sentinel-1 SAR GRD with log scaling were used to get vegetation indices, biophysical parameters and texture measures as features. The features also incorporates NASA SRTM Digital Elevation (30m) and ETH Global Sentinel-2 10m Canopy Height (2020), contributing to a robust and detailed approach.
 
-#### Deep dive into the methodology and results in my [Medium](https://medium.com/@sandrosena/modeling-above-ground-biomass-with-machine-learning-and-remote-sensing-e82a9ea9926f) post.
+#### I invite you to dive into the methodology and results in my [Medium](https://medium.com/@sandrosena/modeling-above-ground-biomass-with-machine-learning-and-remote-sensing-e82a9ea9926f) post.
 
 ## Objectives
 
