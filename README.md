@@ -6,6 +6,13 @@ The prediction of aboveground biomass is essential for understanding ecosystems 
 
 The workflow on this project utilizes a combination of diverse datasets. First of all is MapBiomas (collection 7) to make a Land Use and Land Cover analysis on the area of interest. Then, the target variable is sampled using ESA CCI Global Forest Above Ground Biomass. The Harmonized Sentinel-2 MSI (Level-2A) and Sentinel-1 SAR GRD with log scaling were used to get vegetation indices, biophysical parameters and texture measures as features. The features also incorporates NASA SRTM Digital Elevation (30m) and ETH Global Sentinel-2 10m Canopy Height (2020), contributing to a robust and detailed approach.
 
+### Acknowledgments 
+This research was made possible by the crucial scientific contributions of Giulia Molisse and Erli Pinto dos Santos. They exemplify the altruistic spirit of science by making knowledge open and accessible, thereby strengthening collaboration within our community.
+Checkout their work !
+
+- [Giulia Molisse - Above Ground Biomass Estimation: implementation of a Sentinel-2 based exploratory workflow](https://github.com/giuliamolisse/AboveGroundBiomassEstimation)
+- [Erli Pinto dos Santos - Vegetation cover monitoring in tropical regions using SAR-C dual-polarization index: seasonal and spatial influences](https://github.com/eupassarinho/GoogleEarthEngine-sentinel1-vegetation-indices)
+
 #### I invite you to dive into the methodology and results in my [Medium](https://medium.com/@sandrosena/modeling-above-ground-biomass-with-machine-learning-and-remote-sensing-e82a9ea9926f) post.
 
 ## Objectives
@@ -46,5 +53,4 @@ When comparing the predicted biomass with data obtained from NFI, a difference o
 Additionally, the Mann-Whitney U test found no statistically significant differences in performance metrics among the models.
 
 ## Contribution
-
 This work contributes to the field of environmental management by providing a tool that can be used to support decision-making in conservation policies and the sustainable use of forest resources.
