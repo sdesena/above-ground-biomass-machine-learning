@@ -1,0 +1,38 @@
+name: biomass-spatial-modeling
+channels:
+  - conda-forge
+dependencies:
+  - python >=3.11,<3.13
+
+  # notebooks
+  - jupyterlab
+  - ipykernel
+
+  # geospatial data
+  - geopandas
+  - rasterio
+  - shapely
+  - pyproj
+  - gdal
+
+  # spatial analysis (ESDA, spatial dependence)
+  - libpysal
+  - esda
+  - scikit-gstat
+
+  # data analysis and modeling
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - xgboost
+  - shap
+  - bayesian-optimization
+
+  # visualization
+  - matplotlib
+  - seaborn
+
+  # data collection (Google Earth Engine)
+  - earthengine-api
+  - geemap
