@@ -30,9 +30,16 @@ dependencies:
   - bayesian-optimization
 
   # visualization
+  - folium
+  - branca
   - matplotlib
   - seaborn
 
   # data collection (Google Earth Engine)
   - earthengine-api
   - geemap
+
+  # PyGRF is not available on conda-forge
+  - pip
+  - pip:
+      - PyGRF==0.0.12
